@@ -1,6 +1,5 @@
 import api from "../../services/api";
 import { useEffect, useState } from "react";
-import MovieCard from "../../componentes/MovieCard";
 import { Link } from "react-router-dom";
 import { ListCollapse } from "lucide-react";
 
