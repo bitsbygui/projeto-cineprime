@@ -64,7 +64,7 @@ function Filme() {
   }
 
   return (
-    <section className="mx-auto mt-4 mb-4 flex flex-col items-center max-w-[800px] px-2 gap-4 h-screen">
+    <section className="mx-auto my-5 flex flex-col items-center justify-center px-2 gap-4 max-w-[800px] ">
       
      <MovieDetails filme={filme} />
      <ActionButtons filme={filme} salvarFilme={salvarFilme} />

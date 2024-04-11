@@ -14,7 +14,7 @@ const MovieDetails = ({ filme }) => {
       />
 
       <h3 className="text-evening-blue text-lg font-bold">Sinopse</h3>
-      <span>{filme.overview}</span>
+      <span className="text-justify mx-2">{filme.overview}</span>
 
       <div className="grid grid-cols-3 gap-3 w-full my-11">
 
